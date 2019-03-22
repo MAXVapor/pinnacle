@@ -17,7 +17,7 @@ The goal of this project is to produce an Open Source replacement firmware for t
 ## To Do:
 - Battery Voltage Detection
 - Battery Charge Detection
-- Heat Output / PWM Control
+- Atomizer Heat [Uses Feeling Tech FP6293](http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6293v062.pdf)
 - Atomizer Resistance / Temperature Monitor
 - General Program Flow
 
@@ -123,6 +123,14 @@ The device is controlled by a ST Microelectronics STM32F030 Microprocessor
 This graphic will be updated as development on the Custom Firmware progresses and the remaining pins functionality is confirmed and implemented.
 
 ![Curent Pinout](stm32f_pinout.png)
+
+## Unidentified Components
+
+### Unknown IC: Unknown Manufacturer (Maxim?)
+![Unknown IC](unknown1.jpg)
+
+### Unknown IC: Unknown Manufacturer (Tony Stark?)
+![Unknown IC](unknown2.jpg)
 
 
 ### Disclaimer:
