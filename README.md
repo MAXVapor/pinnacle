@@ -17,7 +17,7 @@ The goal of this project is to produce an Open Source replacement firmware for t
 ## To Do:
 - Battery Voltage Detection
 - Battery Charge Detection
-- Atomizer Heat [Uses Feeling Tech FP6293](http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6293v062.pdf)
+- Atomizer Heat
 - Atomizer Resistance / Temperature Monitor
 - General Program Flow
 
@@ -124,13 +124,21 @@ This graphic will be updated as development on the Custom Firmware progresses an
 
 ![Curent Pinout](stm32f_pinout.png)
 
-## Unidentified Components
+## Unidentified / Unused Components
 
-### Unknown IC: Unknown Manufacturer (Maxim?)
+### Feeling Tech FP6293
+- PWM Controller (Atomizer Heat) [Datasheet](http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6293v062.pdf)
+
+### Unknown IC: Unknown Manufacturer (MAXIM?)
+
 ![Unknown IC](unknown1.jpg)
 
-### Unknown IC: Unknown Manufacturer (Tony Stark?)
-![Unknown IC](unknown2.jpg)
+### Alpha & Omega Semiconductor AON6411
+- 20V P-Channel MOSFET
+- The AON6411 combines advanced trench MOSFET
+technology with a low resistance package to provide
+extremely low RDS(ON). This device is ideal for load switch
+and battery protection applications.
 
 
 ### Disclaimer:
