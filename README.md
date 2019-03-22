@@ -127,14 +127,18 @@ This graphic will be updated as development on the Custom Firmware progresses an
 ## Unidentified / Unused Components
 
 ### Feeling Tech FP6293
-- PWM Controller (Atomizer Heat) [Datasheet](http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6293v062.pdf)
+- PWM Controller / Controls Atomizer Heat
+- [FP6293 Datasheet](http://www.feeling-tech.com.tw/km-master/ezcatfiles/cust/img/img/24/fp6293v062.pdf)
 
-### Unknown IC: Unknown Manufacturer (MAXIM?)
-
-![Unknown IC](unknown1.jpg)
+### Monolithic Power MP2615
+- Battery Charge Controller
+- [MP2615 Datasheet](https://www.monolithicpower.com/en/documentview/productdocument/index/doc_url/L20vcC9tcDI2MTVfcjEuMDEucGRm/release_date/MjAxNC0wMS0yNiAwMDowMDowMA%3D%3D/)
+- The MP2615 is a high efficiency switch mode
+battery charger suitable for 1- or 2- cell lithiumion or lithium-Polymer applications. 
 
 ### Alpha & Omega Semiconductor AON6411
 - 20V P-Channel MOSFET
+- [AON6411 Datasheet](http://aosmd.com/pdfs/datasheet/AON6411.pdf)
 - The AON6411 combines advanced trench MOSFET
 technology with a low resistance package to provide
 extremely low RDS(ON). This device is ideal for load switch
