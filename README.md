@@ -13,10 +13,10 @@ The goal of this project is to produce an Open Source replacement firmware for t
 - LED Control
 - NTC Thermistor (Battery Temperature)
 - UART Serial Port Output
+- Battery Charge Detection
 
 ## To Do:
 - Battery Voltage Detection
-- Battery Charge Detection
 - Atomizer Heat
 - Atomizer Resistance / Temperature Monitor
 - General Program Flow
