@@ -14,9 +14,9 @@ The goal of this project is to produce an Open Source replacement firmware for t
 - NTC Thermistor (Battery Temperature)
 - UART Serial Port Output
 - Battery Charge Detection
+- Battery Voltage Detection
 
 ## To Do:
-- Battery Voltage Detection
 - Atomizer Heat
 - Atomizer Resistance / Temperature Monitor
 - General Program Flow
@@ -124,6 +124,12 @@ This graphic will be updated as development on the Custom Firmware progresses an
 
 ![Curent Pinout](stm32f_pinout.png)
 
+## LED Indicators
+- Flashing Rainbow -> No Atomizer
+- Flashing Red 5x -> Atomizer Short
+- Solid Red -> NTC Thermistor High Temp (Battery Overheat)
+- Battery Voltage -> Green (+7.5v), Amber (7.4v-7.2v), Red (7.1v-3.4v)
+
 ## Remaining Peripherals
 
 
@@ -134,7 +140,7 @@ This graphic will be updated as development on the Custom Firmware progresses an
 battery charger suitable for 1- or 2- cell lithium ion or lithium-Polymer applications. 
 
 ### Generic INA199
-- Current Shunt Monitor (Battery Voltage)
+- Current Shunt Monitor (Atomizer Voltage / Resistance)
 - [INA199 Datasheet](http://www.ti.com/lit/ds/symlink/ina199.pdf)
 
 
