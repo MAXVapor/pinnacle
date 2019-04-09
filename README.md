@@ -32,6 +32,20 @@ The goal of this project is to produce an Open Source replacement firmware for t
 - Phone App for BLE Controls
 - Temperature Profiles
 
+## LED Control:
+
+Originally the onboard LEDs were assumed to be common WS2812 RGB LEDs.
+
+After some experimentation I now believe them to be SK6812 RGBW LEDs which require 4 bytes per LED to be transmitted in GRBW sequence.
+
+There are 7 LEDs inside the device: 3 onboard, 4 on the button board. This means a total of 28 bytes need to be transmitted to illuminate all of the LEDs
+
+While individually addressable are cool and save GPIO on the processor, they require very specific timing requirements. The current code runs perfectly fine when connected via the programmer, but when the device is hooked to a USB or battery power source the processor runs too quickly and all of the LEDs illuminate white.
+
+It is unfortunate the manufacturer did not attach the LEDs to the SPI MOSI pin of the processor or we could use a common trick to drive them.
+
+Long story short, our LED code needs some work but now that we think we know the correct LED chip we might be able to sort it out more easily.
+
 ## Stock LED Indicators
 - Flashing Rainbow -> No Atomizer
 - Flashing Red 5x -> Atomizer Short
