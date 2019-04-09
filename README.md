@@ -46,14 +46,7 @@ It is unfortunate the manufacturer did not attach the LEDs to the SPI MOSI pin o
 
 Long story short, our LED code needs some work but now that we think we know the correct LED chip we might be able to sort it out more easily.
 
-## Stock LED Indicators
-- Flashing Rainbow -> No Atomizer
-- Flashing Red 5x -> Atomizer Short
-- Solid Red -> NTC Thermistor High Temp (Battery Overheat)
-- Battery Voltage -> Green (+7.5v), Amber (7.4v-7.2v), Red (7.1v-3.4v)
-
-## Custom LED Indicators
-- Solid Blue -> Reset Atomizer Resistance
+![LED Colors](leds.jpg)
 
 ## Temperature Control
 Either we have decent temperature accuracy, or a long string of coincidences and magic numbers in our math just happened to arrive us within 3C of the measured temperature.
